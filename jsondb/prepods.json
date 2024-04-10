@@ -1,0 +1,42 @@
+{
+    "cfb90dcb-70fa-4120-ab2f-86e4c4233968": {
+        "status": "granted",
+        "tg_id": 1,
+        "tg_nickname": "1",
+        "uuid": "cfb90dcb-70fa-4120-ab2f-86e4c4233968",
+        "fullName": "Арманова М.В",
+        "subjects": ["7a8be10e-5096-47bb-83df-e3e99d9a6a01"]
+    },
+    "c548256d-20b2-4c28-90db-3448fece4097": {
+        "status": "granted",
+        "tg_id": 2,
+        "tg_nickname": "2",
+        "uuid": "c548256d-20b2-4c28-90db-3448fece4097",
+        "fullName": "Курашев В.А",
+        "subjects": ["038b8e88-8b85-4445-9366-d2d1e525c323"]
+    },
+    "60875158-67bc-4149-9665-9b881a07f2c5": {
+        "status": "granted",
+        "tg_id": 3,
+        "tg_nickname": "3",
+        "uuid": "60875158-67bc-4149-9665-9b881a07f2c5",
+        "fullName": "Синилова Т.Н.",
+        "subjects": ["5ecb2412-99c4-475e-9232-cba321d01fbf"]
+    },
+    "25c40176-4a39-4172-8463-468a3161bba6": {
+        "status": "granted",
+        "tg_id": 4,
+        "tg_nickname": "4",
+        "uuid": "25c40176-4a39-4172-8463-468a3161bba6",
+        "fullName": "Калимеева Е.Г.",
+        "subjects": ["05e42ef6-3595-4ea1-8614-c4e681ba04fc"]
+    },
+    "709da874-3184-4f26-bc3c-1d7ada6425d9": {
+        "status": "granted",
+        "tg_id": 5,
+        "tg_nickname": "5",
+        "uuid": "709da874-3184-4f26-bc3c-1d7ada6425d9",
+        "fullName": "Клубков А.К.",
+        "subjects": ["01749918-14f5-424c-a556-4339f94eca88"]
+    }
+}

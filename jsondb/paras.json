@@ -1,0 +1,14 @@
+{
+    "04a241cd-84eb-4b7b-8d74-df22b6580f27": {
+        "uuid": "04a241cd-84eb-4b7b-8d74-df22b6580f27",
+        "subject": "7a8be10e-5096-47bb-83df-e3e99d9a6a01",
+        "prepod": "cfb90dcb-70fa-4120-ab2f-86e4c4233968",
+        "location": "301"
+    },
+    "d5d14308-7044-4a95-a686-a1ab1edc340d": {
+        "uuid": "d5d14308-7044-4a95-a686-a1ab1edc340d",
+        "subject": "038b8e88-8b85-4445-9366-d2d1e525c323",
+        "prepod": "c548256d-20b2-4c28-90db-3448fece4097",
+        "location": "311"
+    }
+}

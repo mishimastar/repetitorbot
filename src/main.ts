@@ -1,21 +1,21 @@
-import { once } from "node:events";
+import { once } from 'node:events';
+import { TGBot } from './tg';
 
 async function start() {
-  // await StartMetrics();
-  // Log.Info('Using ConfigMap:', CfgMap);
-  // await InitNode();
-  // await Promise.all([StartGRPC(), StartGRPCSchemas(), StartGRPCInternal(), StartGRPCMaintain()]);
-  await Promise.race([once(process, "SIGINT"), once(process, "SIGTERM")]);
+    console.log('starting');
 
-  // Notificator.stop();
-  // await Promise.all([StopGRPC(), StopGRPCSchemas(), StopGRPCInternal(), StopGRPCMaintain()]);
+    await TGBot.start();
 
-  // if (!SS.amIMaster()) await SS.stopWatchingMaster();
+    await Promise.race([once(process, 'SIGINT'), once(process, 'SIGTERM')]);
 
-  // await StopMetrics();
+    console.log('shutting down');
+
+    await TGBot.stop();
+
+    console.log('stopped');
 }
 
 start().catch((error) => {
-  console.error("tg shedule bot: fatal error", { error });
-  process.exit(1);
+    console.error('tg shedule bot: fatal error', { error });
+    process.exit(1);
 });

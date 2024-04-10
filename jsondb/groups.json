@@ -1,0 +1,14 @@
+{
+    "9cfbc4d4-9ea6-416a-b5ba-f464fd94a8af": {
+        "name": "ИСП-2-22",
+        "uuid": "9cfbc4d4-9ea6-416a-b5ba-f464fd94a8af",
+        "shedule": {
+            "2024-04-10": "46945452-9f3b-4ac6-802b-0bb526f88aa7"
+        }
+    },
+    "f4a4a85b-1de8-4085-82ce-a4be8d5fbf47": {
+        "name": "ИСП-2-22д",
+        "uuid": "f4a4a85b-1de8-4085-82ce-a4be8d5fbf47",
+        "shedule": {}
+    }
+}
